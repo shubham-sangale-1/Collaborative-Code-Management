@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav li{
+            margin-right: 20px;
+        }
+        nav li a {
+            text-decoration: none;
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .parent{
+            display: flex;
+            margin: 0 40px 0 40px;
+        }
+        .child{
+            width: 25%;
+            height: 400px;
+            /* background-color: red; */
+            margin-right: 10px;
+        }
+        .child img{
+            /* margin-left: 5%; */
+            width: 100%;
+            height: 90%;
+        }
+        .child p{
+            margin-top: -5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .child h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: -12px;
+        }
+        .child mark{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex;">
+        <div style="width: 20%; margin-left: 5%; margin-top: 10px;">
+            <img width="250px" src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?auto=format" alt="">
+        </div>
+        <div style="width: 50%;">
+            <nav>
+                <ul style="display: flex; list-style-type: none;">
+                    <li>
+                        <a href="">NEW</a>
+                    </li>
+                    <li>
+                        <a href="">ICONS</a>
+                    </li>
+                    <li>
+                        <a href="">MEN</a>
+                    </li>
+                    <li>
+                        <a href="">WOMEN</a>
+                    </li>
+                    <li>
+                        <a href="">SPORTS</a>
+                    </li>
+                    <li>
+                        <a href="">CLASSIC</a>
+                    </li>
+                    <li>
+                        <a href="">SALE</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div style="width: 20%;display: flex; justify-content:center;">
+            <button style="border: none;color: white;background-color: red; border-radius: 20px; height: 50px; width: 200px;">
+                Express Delivery
+            </button>
+        </div>
+        <div style="width: 20%;display: flex; justify-content:center;">
+            <img src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/ABFRL_logo_image.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="parent">
+            <div class="child">
+                <img src="https://imagescdn.reebok.in/img/app/product/8/815485-9736223.jpg?auto=format&w=390" alt="">
+                <p>Classical Shoes</p>
+                <h3>Rebook Men Club...</h3>
+                <p><mark>&#8377 7890</mark></p>
+            </div>
+            <div class="child">
+                <img src="https://imagescdn.reebok.in/img/app/product/9/904959-11143010.jpg?auto=format&w=390" alt="">
+                <p>Classical Shoes</p>
+                <h3>Rebook Men Club...</h3>
+                <p><mark>&#8377 7890</mark></p>
+            </div>
+            <div class="child">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39710887-14664746.jpg?auto=format&w=390" alt="">
+                <p>Classical Shoes</p>
+                <h3>Rebook Men Club...</h3>
+                <p><mark>&#8377 7890</mark></p>
+            </div>
+            <div class="child">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39710886-14664738.jpg?auto=format&w=390" alt="">
+                <p>Classical Shoes</p>
+                <h3>Rebook Men Club...</h3>
+                <p><mark>&#8377 7890</mark></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
